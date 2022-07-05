@@ -16,6 +16,7 @@
             android:exported="false" />
         <activity
             android:name=".NumbersActivity"
+            android:label="Number"
             android:exported="false" />
         <activity
             android:name=".PhrasesActivity"
