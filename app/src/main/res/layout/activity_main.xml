@@ -35,14 +35,14 @@
         style="@style/CategoryStyle"
         android:background="@color/category_family"
         android:text="@string/category_family"
-        android:onClick="OpenColorsList"/>
+        android:onClick="OpenFamilyList"/>
 
     <TextView
         android:id="@+id/colors"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
         android:text="@string/category_colors"
-        android:onClick="OpenFamilyList"/>
+        android:onClick="OpenColorsList"/>
 
     <TextView
         android:id="@+id/phrases"
