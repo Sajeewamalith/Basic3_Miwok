@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -33,7 +34,7 @@ public class NumbersActivity extends AppCompatActivity {
 
         WordAdapter adapter = new WordAdapter(this,words);
 
-        GridView listView = (GridView) findViewById(R.id.list);
+        ListView listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
