@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -50,6 +51,9 @@ public class NumbersActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 // Get the {@link Word} object at the given position the user clicked on
                 Word word = words.get(position);
+
+              // logcat check
+                Log.v("NumbersActivity", "Current word: " + word);
 
                 // Create and setup the {@link MediaPlayer} for the audio resource associated
                 // with the current word
